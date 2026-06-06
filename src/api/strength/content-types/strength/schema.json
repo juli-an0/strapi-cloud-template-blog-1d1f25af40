@@ -40,6 +40,9 @@
       "relation": "oneToMany",
       "target": "api::question.question",
       "mappedBy": "strength"
+    },
+    "legacyId": {
+      "type": "integer"
     }
   }
 }
