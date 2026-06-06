@@ -34,6 +34,12 @@
     },
     "active": {
       "type": "boolean"
+    },
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question",
+      "mappedBy": "strength"
     }
   }
 }
